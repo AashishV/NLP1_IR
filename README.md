@@ -8,6 +8,12 @@ Image Features link, https://aashishv.stackstorage.com/s/sEdlxbDqaPHeNxi
 Please find the project report requirements [here](https://github.com/tdeoskar/NLP1-2017/blob/master/project-reqs.md).
 
 
+### Links
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [PyTorch Tutorials](https://github.com/yunjey/pytorch-tutorial)
+* [PyTorch Data Loading Tutorial](http://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
+
 ### Get Images
 While for training your models you can handle the image features as a black box, for testing and anlysis you want to have a look at the actual image. The VQA dataset utilizes the 2014 version of [MSCOCO](http://cocodataset.org/). Many tasks like Image Captioning or Object Detection are using this dataset, so it might me worthwhile to download it. However, it is quite big (13GB train, 6GB validation, 6GB test). For this project you will only need the training dataset, since all datapoints are from this split. The image can be retrieved via the file name. The image id is equal the last digits of the image file name. 
 Besides downloading the dataset, we are providing a second option. The MSCOCO annotations come with a flickr url where the images can be found online. The file `imgid2imginfo.json` contains the flickr url (and more image information) for the MSCOCO training and validation dataset. The file can be utilized as follows:
@@ -29,3 +35,4 @@ print(imgid2info['265781'])
 # 'id': 265781,
 # 'license': 1,
 # 'width': 640}
+
