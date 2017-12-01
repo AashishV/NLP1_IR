@@ -3,6 +3,9 @@ NLP1 2017-18 UvA Project
 
 Image Features link, https://aashishv.stackstorage.com/s/sEdlxbDqaPHeNxi
 
+## Projects
+
+Please find the project report requirements [here](https://github.com/tdeoskar/NLP1-2017/blob/master/project-reqs.md).
 
 
 ### Get Images
